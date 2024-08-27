@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.theorem-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.theorem {
+    background-color: #e6f7ff;
+    border: 1px solid #b3daff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.theorem:hover {
+    background-color: #cceeff;
+}
+
+.formula {
+    margin: 0;
+    font-weight: bold;
+}
+
+.details {
+    display: none;
+    margin-top: 10px;
+}
+
+.details p {
+    margin: 5px 0;
+}
